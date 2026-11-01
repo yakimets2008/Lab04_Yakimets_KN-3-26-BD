@@ -13,7 +13,7 @@ const parcels = [
     {id: 8, title: 'Box H', weight: 4.5, distance: 180, fragile: false},
 ]
 
-let baseRate = undefined
+let baseRate
 
 function calculateShipping(weight, distance, fragile, express, discount) {
     let cost = weight * distance * 0.1
@@ -33,7 +33,7 @@ function calculateShipping(weight, distance, fragile, express, discount) {
 
 const getWeightCategory = (w) => {
     if (w > 5) return 'Heavy'
-    else return 'Light'
+    return 'Light'
 }
 
 const applyDiscount = (price) => price * 0.75
@@ -47,7 +47,7 @@ function processParcels(items) {
 
     for (const item of items) {
         let itemCost = calculateShipping(item.weight, item.distance, item.fragile, false, 0)
-        totalCost = totalCost + itemCost
+        totalCost += itemCost
     }
 
     return totalCost

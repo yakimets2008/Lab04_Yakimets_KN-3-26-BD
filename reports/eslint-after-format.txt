@@ -1,0 +1,29 @@
+[0m
+[4mC:\Users\galin\Desktop\ДЗ\IZP\Lab04_Yakimets_KN-3-26-BD\src\app.js[24m
+    [2m3:5[22m   [31merror[39m    'unusedVar' is assigned a value but never used                       [2mno-unused-vars[22m
+   [2m16:5[22m   [33mwarning[39m  It's not necessary to initialize 'baseRate' to undefined             [2mno-undef-init[22m
+   [2m16:5[22m   [31merror[39m    'baseRate' is assigned a value but never used                        [2mno-unused-vars[22m
+   [2m18:64[22m  [31merror[39m    'discount' is defined but never used                                 [2mno-unused-vars[22m
+   [2m36:10[22m  [31merror[39m    Unnecessary 'else' after 'return'                                    [2mno-else-return[22m
+   [2m43:10[22m  [31merror[39m    'processParcels' is defined but never used                           [2mno-unused-vars[22m
+   [2m45:9[22m   [31merror[39m    'a' is assigned a value but never used                               [2mno-unused-vars[22m
+   [2m46:9[22m   [31merror[39m    'b' is assigned a value but never used                               [2mno-unused-vars[22m
+   [2m50:9[22m   [31merror[39m    Assignment (=) can be replaced with operator assignment (+=)         [2moperator-assignment[22m
+   [2m57:9[22m   [31merror[39m    The value assigned to 'result' is not used in subsequent statements  [2mno-useless-assignment[22m
+   [2m68:9[22m   [31merror[39m    Duplicate case label                                                 [2mno-duplicate-case[22m
+   [2m77:10[22m  [31merror[39m    'checkSecurity' is defined but never used                            [2mno-unused-vars[22m
+   [2m84:10[22m  [31merror[39m    'testConfig' is defined but never used                               [2mno-unused-vars[22m
+   [2m86:10[22m  [31merror[39m    Unexpected constant condition                                        [2mno-constant-condition[22m
+   [2m86:10[22m  [31merror[39m    'status' is assigned a value but never used                          [2mno-unused-vars[22m
+   [2m91:5[22m   [31merror[39m    Unreachable code                                                     [2mno-unreachable[22m
+   [2m94:7[22m   [31merror[39m    'sampleObj' is assigned a value but never used                       [2mno-unused-vars[22m
+   [2m94:49[22m  [31merror[39m    Duplicate key 'price'                                                [2mno-dupe-keys[22m
+   [2m96:5[22m   [31merror[39m    Unexpected constant condition                                        [2mno-constant-condition[22m
+   [2m96:11[22m  [31merror[39m    Empty block statement                                                [2mno-empty[22m
+   [2m99:10[22m  [31merror[39m    'updateSettings' is defined but never used                           [2mno-unused-vars[22m
+  [2m100:5[22m   [33mwarning[39m  Assignment to property of function parameter 'settings'              [2mno-param-reassign[22m
+  [2m105:7[22m   [31merror[39m    'titles' is assigned a value but never used                          [2mno-unused-vars[22m
+
+[31m[1m✖ 23 problems (21 errors, 2 warnings)[22m[39m
+[31m[1m  2 errors and 1 warning potentially fixable with the `--fix` option.[22m[39m
+[0m
